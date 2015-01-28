@@ -1,77 +1,198 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Portal Template</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link rel="stylesheet" href="styles/reset.css"/>
-        <link rel="stylesheet" href="styles/jtux.css"/>
-        <link rel="stylesheet" href="styles/portal.css"/>
-        <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portal Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="styles/reset.css"/>
+    <link rel="stylesheet" href="styles/jtux.css"/>
+    <link rel="stylesheet" href="styles/portal.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+</head>
 
-    <body>
-
-        <header title="Portal header">
-            <div title="Client branding information">
-                <div title="Brand image">
-                    <img src="images/temp-client.png">
-                </div>
-                <div title="Brand title">
-                    <h1>Portal Name</h1>
-                    <h2>Portal subtitle</h2>
-                </div>
-            </div>
-            <div class="jtux-menu primary" title="nav">
-                <div class="nav-toggle js-toggle-nav">
-                    <div class="nav-toggle-inner-container">
-                        <div class="nav-toggle-inner">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="nav-wrap nav-right">
-                    <nav>
-                        <ul>
-                            <li><a>Home</a></li>
-                            <li><a>Traffic</a></li>
-                            <li><a>Contact Us</a></li>
-                            <li><a>FAQ</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-
-
-        <div title="content">
-            <nav>
-            </nav>
-
-            <section>
-                <article>
-                    <h5>Search</h5>
-                    <input type="search">
-                </article>
-                <article>
-                    <h5>Test Title</h5>
-                    <div>Content</div>
-                </article>
-                <article>
-                    <h5>Test Data</h5>
-                    <div>Sample table</div>
-                </article>
-            </section>
+<body class="ecourt-template container">
+<header class="jtux-grid jtux-pocket conceal-bg" title="Portal header">
+    <div title="Client branding information">
+        <div class="jg-md-12-12 jg-lg-1-6 jg-xl-1-6 client-image" title="Brand image">
+            <img src="images/temp-client.png">
         </div>
+        <div class="jg-md-12-12 jg-lg-5-6 jg-xl-5-6 portal-header" title="Brand title">
+            <div>
+                <h1>Portal Name</h1>
+                <h2>Portal subtitle</h2>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="jtux-menu primary" title="nav">
+    <div class="nav-toggle js-toggle-nav">
+        <div class="nav-toggle-inner-container">
+            <div class="nav-toggle-inner">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </div>
+        </div>
+    </div>
+    <div class="close-side-nav jtux-button"><i class="i-forward"></i></div>
+    <div class="nav-wrap nav-left">
+        <nav class="nav-color">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>Traffic</a></li>
+                <li><a>Contact Us</a></li>
+                <li><a>FAQ</a></li>
+            </ul>
+        </nav>
+    </div>
 
-        <script src="scripts/jquery.js"></script>
-        <script src="scripts/jtux.js"></script>
+</div>
 
-    </body>
+<div title="content">
+    <div class="jtux-grid">
+        <div id="ecourt-side-nav">
+            <div class="jtux-pocket header text-center">Side navigation</div>
+            <nav class="jt-nested jtux-pocket">
+                <ul class="nest">
+                    <li class="jt-nest-parent">
+                        <a href="#" class="jt-nest-close" title="Workspace">Workspace</a>
+                    </li>
+                    <li class="jt-nest-parent">
+                        <a href="#" class="jt-nest-close" title="Email">Email</a>
+                    </li>
+                    <li class="jt-nest-parent">
+                        <a href="#" class="jt-nest-close" title="Calendar">Calendar</a>
+                    </li>
+                    <li class="jt-nest-parent">
+                        <a href="#" class="jt-nest-close" title="Contacts">Initial Setup</a>
+                    </li>
+                    <li class="jt-nest-parent">
+                        <a href="#" class="jt-nest-close" title="Contacts">System Setup</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="jtux-pocket footer">
+                <a class="close-side-nav"><button class="jtux-button secondary"><i class="i-backward"></i></button></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="ecourt-content">
+        <h1>Page heading</h1>
+        <section>
+
+            <div class="jtux-pocket header">Test Data</div>
+            <div class="jtux-pocket">
+                Lorem ipsum dolor sit amet, velit iudicabit ea vix, ne his vide quaestio convenire. Usu quidam eirmod praesent no, ius nostrud tacimates inciderint et. Qui quod dicunt ne. Ad audire hendrerit adipiscing vim, ne nominati imperdiet sed. Lorem ipsum dolor sit amet, velit iudicabit ea vix, ne his vide quaestio convenire. Usu quidam eirmod praesent no, ius nostrud tacimates inciderint et. Qui quod dicunt ne. Ad audire hendrerit adipiscing vim, ne nominati imperdiet sed.
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet, velit iudicabit ea vix, ne his vide quaestio convenire. Usu quidam eirmod praesent no, ius nostrud tacimates inciderint et. Qui quod dicunt ne. Ad audire hendrerit adipiscing vim, ne nominati imperdiet sed.
+            </div>
+            <div class="jtux-pocket footer"></div>
+
+            <div class="jtux-pocket header">Test Data</div>
+            <div class="jtux-pocket">
+                <div class="jtux-pocket conceal-bg">
+                    <table class="jtux-table extend border-all hover text-left">
+                        <tbody>
+                        <tr>
+                            <th>Type/Role</th>
+                            <th></th>
+                            <th class="min-width">Name</th>
+                            <th class="min-width">Contact</th>
+                            <th class="min-width">Address</th>
+                        </tr>
+                        <tr>
+                            <td>Π</td>
+                            <td>Π</td>
+                            <td><a class="js-show-demo-view" href="#" data-show="update-party">Last, First Middle</a></td>
+                            <td>BUS (555) 555-5555<br> email@address.com</td>
+                            <td>RES 1111 Street Blvd<br> City, STATE ZIP</td>
+                        </tr>
+                        <tr>
+                            <td>Δ</td>
+                            <td>Δ</td>
+                            <td>First Last</td>
+                            <td>CEL (333) 333-3333<br> RES (444) 444-4444<br> email@address.com</td>
+                            <td>RES 1111 Street Blvd<br> City, STATE ZIP</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Witness</td>
+                            <td>John Doe<br>State Police Department</td>
+                            <td>BUS (222) 222-2222<br> email@address.com</td>
+                            <td>RES 1111 Street Blvd<br> City, STATE ZIP</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="jtux-pocket footer"></div>
+
+            <div class="jtux-pocket header">Search and filter through eCourt data<button type="submit" class="jtux-button success small float-right">Submit</button></div>
+            <article class="jtux-pocket">
+                <form class="jtux-grid jtux-form">
+                    <br>
+                    <h5 class="jg-md-12-12 jg-lg-1-6 jg-xl-1-6">Search</h5>
+                    <input class="jg-md-12-12 jg-lg-5-6 jg-xl-5-6" type="search">
+                    <h5 class="jg-md-12-12 jg-lg-1-6 jg-xl-1-6">Filter 1</h5>
+                    <input class="jg-md-12-12 jg-lg-5-6 jg-xl-5-6" type="search">
+                    <h5 class="jg-md-12-12 jg-lg-1-6 jg-xl-1-6">Filter 2</h5>
+                    <input class="jg-md-12-12 jg-lg-5-6 jg-xl-5-6" type="search">
+                    <h5 class="jg-md-12-12 jg-lg-1-6 jg-xl-1-6">Filter 3</h5>
+                    <input class="jg-md-12-12 jg-lg-5-6 jg-xl-5-6" type="search">
+                </form>
+            </article>
+            <div class="jtux-pocket footer"></div>
+
+            <div class="jtux-pocket header">Test Data</div>
+            <div class="jtux-pocket">
+                <div class="jtux-pocket conceal-bg">
+                    <table class="jtux-table extend border-all hover text-left">
+                        <tbody>
+                        <tr>
+                            <th>Type/Role</th>
+                            <th></th>
+                            <th class="min-width">Name</th>
+                            <th class="min-width">Contact</th>
+                            <th class="min-width">Address</th>
+                        </tr>
+                        <tr>
+                            <td>Π</td>
+                            <td>Π</td>
+                            <td><a class="js-show-demo-view" href="#" data-show="update-party">Last, First Middle</a></td>
+                            <td>BUS (555) 555-5555<br> email@address.com</td>
+                            <td>RES 1111 Street Blvd<br> City, STATE ZIP</td>
+                        </tr>
+                        <tr>
+                            <td>Δ</td>
+                            <td>Δ</td>
+                            <td>First Last</td>
+                            <td>CEL (333) 333-3333<br> RES (444) 444-4444<br> email@address.com</td>
+                            <td>RES 1111 Street Blvd<br> City, STATE ZIP</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Witness</td>
+                            <td>John Doe<br>State Police Department</td>
+                            <td>BUS (222) 222-2222<br> email@address.com</td>
+                            <td>RES 1111 Street Blvd<br> City, STATE ZIP</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="jtux-pocket footer"></div>
+        </section>
+    </div>
+</div>
+
+<script src="scripts/jquery.js"></script>
+<script src="scripts/jtux.js"></script>
+<script src="scripts/side-nav.js"></script>
+</body>
 
 </html>
 
