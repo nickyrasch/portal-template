@@ -1,0 +1,101 @@
+.container {
+    max-width: 1000px;
+    float: none;
+    margin: 0 auto;
+    padding: 0em;
+}
+
+.close-side-nav {
+    margin-left: 8px;
+}
+
+.jtux-menu.primary {
+    background: #3278b1;
+}
+.jtux-menu.primary .nav-toggle .icon-bar {
+    background: #fff;
+}
+
+.jtux-menu.primary ul li a {
+    color: #fff;
+}
+
+.jt-nested.conceal-bg {
+    background: transparent !important;
+}
+
+.portal-header {
+    display: table;
+    height: 100pt;
+    overflow: hidden;
+}
+
+.portal-header div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.ecourt-template #ecourt-side-nav, .ecourt-template #ecourt-content {
+    -webkit-transition: all 0.35s ease;
+    padding: 0;
+}
+.ecourt-template #ecourt-content {
+    float: right;
+    width: calc(100% - 175px);
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+.ecourt-template #ecourt-side-nav {
+    position: absolute;
+    width: 175px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .ecourt-template #ecourt-content {
+        left: 175px;
+        float: none;
+        width: 100%;
+    }
+    .ecourt-template #case-header, .ecourt-template .summary-actions, .ecourt-template #footer-actions {
+        text-align: center;
+    }
+    .ecourt-template #case-header .top-button, .ecourt-template #case-header .back-button, .ecourt-template .summary-actions .top-button, .ecourt-template .summary-actions .back-button, .ecourt-template #footer-actions .top-button, .ecourt-template #footer-actions .back-button {
+        float: none !important;
+        margin-top: 1rem;
+    }
+    .ecourt-template.toggle-side-nav #ecourt-side-nav {
+        left: -100%;
+    }
+    .ecourt-template.toggle-side-nav #ecourt-content {
+        width: 100%;
+        margin-left: -175px;
+    }
+    .jtux-menu.primary.overflow .nav-wrap {
+        background: #cde1f1;
+    }
+    .jtux-menu.primary.overflow .nav-wrap a {
+        color: #111 !important;
+    }
+
+    .portal-header, .portal-header img {
+        text-align: center;
+    }
+
+    .portal-header div {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .client-image{
+        text-align: center;
+    }
+
+    .min-width {
+        min-width: 13em;
+    }
+}
